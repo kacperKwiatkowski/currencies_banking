@@ -27,3 +27,6 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+# Angular
+frontend/node_modules

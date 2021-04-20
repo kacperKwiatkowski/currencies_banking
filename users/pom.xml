@@ -12,9 +12,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>monolith</module>
-        <module>domain</module>
-        <module>app</module>
-        <module>adapters</module>
+        <module>users-monolith</module>
+        <module>users-domain</module>
+        <module>users-app</module>
+        <module>users-adapters</module>
     </modules>
 </project>

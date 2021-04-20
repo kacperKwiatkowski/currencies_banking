@@ -9,20 +9,14 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.kacperkwiatkowski</groupId>
-    <artifactId>accounts</artifactId>
+    <artifactId>users-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>accounts</name>
+    <name>users-app</name>
     <description>Demo project for Spring Boot</description>
-
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>accounts-adapters</module>
-        <module>accounts-app</module>
-        <module>accounts-domain</module>
-        <module>accounts-monolith</module>
-    </modules>
-
-
+    <properties>
+        <java.version>11</java.version>
+    </properties>
+    <dependencies>
+    </dependencies>
 
 </project>
