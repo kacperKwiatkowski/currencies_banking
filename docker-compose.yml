@@ -1,0 +1,26 @@
+version: '3'
+services:
+  eureka:
+    ports:
+      - "8761:8761"
+    build:
+      dockerfile: Dockerfile
+      context: ./eureka
+  gateway:
+    ports:
+      - "9000:9000"
+    build:
+      dockerfile: Dockerfile
+      context: ./gateway
+  users:
+    ports:
+      - "5000:5000"
+    build:
+      dockerfile: Dockerfile
+      context: ./users
+  accounts:
+    ports:
+      - "5001:5001"
+    build:
+      dockerfile: Dockerfile
+      context: ./accounts
