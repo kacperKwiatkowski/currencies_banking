@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>com.kacperkwiatkowski</groupId>
-            <artifactId>adapters</artifactId>
+            <artifactId>users-adapters</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
