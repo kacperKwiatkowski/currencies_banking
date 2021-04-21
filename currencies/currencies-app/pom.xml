@@ -17,6 +17,20 @@
         <java.version>11</java.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.kacperkwiatkowski</groupId>
+            <artifactId>currencies-domain</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
